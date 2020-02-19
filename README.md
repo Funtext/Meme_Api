@@ -19,7 +19,7 @@ JSON API for a random meme scraped from reddit.
 
 In order to get multiple memes in a single request specify the count with the following endpoint.
 
-Endpoint: [/gimme/{count}](https://rndmemes.herokuapp.com/2)
+Endpoint: [/{count}](https://rndmemes.herokuapp.com/2)
 
 Example: https://rndmemes.herokuapp.com/2
 
@@ -49,7 +49,7 @@ Response:
 
 By default the API grabs a random meme from '_memes_', '_dankmemes_', '_meirl_' subreddits. To provide your own custom subreddit use the following endpoint.
 
-Endpoint: [/gimme/{subreddit}](https://rndmemes.herokuapp.com/dankmemes)
+Endpoint: [/{subreddit}](https://rndmemes.herokuapp.com/dankmemes)
 
 Example: https://meme-api.herokuapp.com/gimme/dankmemes
 
@@ -57,7 +57,7 @@ Example: https://meme-api.herokuapp.com/gimme/dankmemes
 
 In order to get a custom number of memes from a specific subreddit provide the name of the subreddit and the count in the following endpoint.
 
-Endpoint: [/gimme/{subreddit}/{count}](https://meme-api.herokuapp.com/gimme/dankmemes/2)
+Endpoint: [/{subreddit}/{count}](https://meme-api.herokuapp.com/gimme/dankmemes/2)
 
 Example: https://rndmemes.herokuapp.com/dankmemes/2
 
