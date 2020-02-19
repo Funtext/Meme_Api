@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/Funtext/Random-Memes.svg?branch=master)](https://travis-ci.com/Funtext/Random-Memes)
+
 # Meme API
 
 JSON API for a random meme scraped from reddit.
