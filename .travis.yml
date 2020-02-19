@@ -1,5 +1,3 @@
 language: python
-install:
-  - pip install -r requirements.txt
-script:
-  - app.py
+install: pip install -r requirements.txt
+script: pytest
