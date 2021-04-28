@@ -1,0 +1,23 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: praw
+    versions:
+    - 7.1.0
+    - 7.1.2
+    - 7.1.4
+  - dependency-name: urllib3
+    versions:
+    - 1.26.3
+  - dependency-name: prawcore
+    versions:
+    - 1.5.0
+  - dependency-name: jinja2
+    versions:
+    - 2.11.2
